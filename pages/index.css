@@ -7,83 +7,90 @@
   line-height: 20px;
 }
 
+.header {
+  padding: 30px 80px 40px;
+  background: center / cover no-repeat url(../images/background_header.svg)
+    #fff;
+  position: relative;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__image {
+  position: absolute;
+  height: 568px;
+  width: 646px;
+  right: 5px;
+  top: 124px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
 }
 /* code for noto-serif font -> font-family: "Noto Serif", "Times New Roman", serif;   */
 
 .nav__logo {
-  position: relative;
-  top: 20px;
-  left: 10px;
   width: 105px;
   height: 39px;
-
+  position: relative;
+  left: -50px;
 }
 .nav__links {
   display: flex;
   list-style: none;
   gap: 20px;
-  margin-right: 60px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav__item {
+.nav__link {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
 }
 
-.header__title {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  max-width: 729px;
-  left: 80px;
-  top: 183px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #3F96F3;
-}
 
-.header__title__subheading {
-  color: #000000;
-  font-style: normal;
+.header__title {
+  max-width: 729px;
+  margin: 183px 0 0;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
 }
 
-.header__description {
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #3F96F3;
+  display: block;
 }
 
-.header__image {
-  z-index: 1;
-  height: 568px;
-  width: 646px;
-  position: absolute;
-  right: 5px;
-  top: 124px;
+.header__description {
+  margin: 28px 0 0;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
+
+
 
 .header__footer {
-  display: flex;
-  justify-content: space-between;
   margin-top: auto;
-}
-
-.header__footer__paragraph {
-  font-style: normal;
+ display: flex;
+ justify-content: space-between;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+  align-items: flex-end;
+}
+
+.header__paragraph {
+  margin: 0;
 }
