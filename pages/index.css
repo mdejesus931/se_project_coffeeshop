@@ -7,5 +7,83 @@
   line-height: 20px;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
 /* code for noto-serif font -> font-family: "Noto Serif", "Times New Roman", serif;   */
-test
+
+.nav__logo {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 105px;
+  height: 39px;
+
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 60px;
+}
+
+.nav__item {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 729px;
+  left: 80px;
+  top: 183px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3F96F3;
+}
+
+.header__title__subheading {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__description {
+}
+
+.header__image {
+  z-index: 1;
+  height: 568px;
+  width: 646px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__footer__paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
