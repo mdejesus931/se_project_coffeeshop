@@ -136,3 +136,10 @@
 .recipes__iframe {
   frameborder: 0;
 }
+
+.reservation {
+  padding: 100px 80px;
+  background: center / cover no-repeat url(../images/background_reservation.svg)
+    #d9e7ff;
+  color: #ffffff;
+}

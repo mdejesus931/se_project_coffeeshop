@@ -67,7 +67,28 @@
           </li>
          </ul>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h1 class="reservation__title">Book a table</h1>
+          <form action="" class="reservation__form">
+            <fieldset class="reservation__form reservation__form__fieldset">
+              <label class="reservation__form reservation__form__fieldset_label" for="name">Name*</label>
+              <input class="reservation__form reservation__form__fieldset_input" type="text" id="name" name="name" placeholder="Name Surname" required>
+              <label class="reservation__form reservation__form__fieldset_input" for="guests">Number of guests*</label>
+              <input class="reservation__form reservation__form__fieldset_input" type="number" id="guests" name="number of guests" placeholder="1-8" min="1" max="8" required>
+              <label class="reservation__form reservation__form__fieldset_input" for="date">Date & time*</label>
+              <input class="reservation__form reservation__form__fieldset_input" type="datetime-local" id="date" name="date" required>
+              <label class="reservation__form reservation__form__fieldset_input" for="email">Your email*</label>
+              <input class="reservation__form reservation__form__fieldset_input" type="email" id="email" name="email" placeholder="email@email.com" required>
+            </fieldset>
+            <fieldset class="reservation__form reservation__form__fieldset">
+              <button class="reservation__form reservation__form__fieldset_button" type="submit">Book a table</button>
+            </fieldset>
+            <fieldset class="reservation__form reservation__form__fieldset">
+              <label class="reservation__form reservation__form__fieldset_checkbox" for="terms">I agree with the terms of use</label>
+              <input class="reservation__form reservation__form__fieldset_checkbox" type="checkbox" id="terms" name="terms" required>
+            </fieldset>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="about"></section>
       </main>
