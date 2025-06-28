@@ -2,7 +2,7 @@
 
 Welcome to the Triple Peaks Coffee Shop project! This is a responsive website for a fictional coffee shop, built with modern web development techniques.
 
-Technologies & Features
+## Technologies & Features
 
 Core Implementation
 
@@ -20,7 +20,7 @@ Project Structure
 - Component-based (blocks/) CSS architecture
 - Normalize.css for consistent cross-browser styling
 
-## Plans on improving the project
+### Plans on improving the project
 
 more interactive design
 shopping cart system
