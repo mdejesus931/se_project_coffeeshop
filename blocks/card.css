@@ -6,20 +6,28 @@
   width: 540px;
 }
 
+.card__list {
+  padding: 0;
+}
 .card__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: 32px;
+  padding: 0 0 16px;
   margin: 0;
 }
 
 .card__list-item {
   display: flex;
+  padding: 0 0 16px;
+  justify-content: space-between;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-divider {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0.95;
   border-bottom: 1px solid #000;
 }
