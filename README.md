@@ -5,15 +5,18 @@ Welcome to the Triple Peaks Coffee Shop project! This is a responsive website fo
 Technologies & Features
 
 Core Implementation
+
 -Semantic HTML5 for accessible, well-structured content
 -CSS Flexbox for responsive layouts
 -Advanced Positioning for precise element control
 
 CSS Techniques
+
 -Animations & Transforms for interactive elements
 -BEM Methodology with flat file structure for maintainable code
 
 Project Structure
+
 -Component-based (blocks/) CSS architecture
 -Normalize.css for consistent cross-browser styling
 
