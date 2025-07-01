@@ -3,6 +3,7 @@
   color: #fff;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .about__title {
@@ -13,6 +14,7 @@
   line-height: 52px;
   margin: 0;
   z-index: 3;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {

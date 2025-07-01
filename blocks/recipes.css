@@ -11,6 +11,7 @@
   line-height: 52px;
   max-width: 580px;
   margin: 0 0 24px;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .recipes__subtitle {
@@ -25,6 +26,8 @@
   list-style-type: none;
   justify-content: center;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes__video-caption {
@@ -34,4 +37,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Inter", Arial, sans-serif;
 }
